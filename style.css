@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    font-family: "Space Mono", "Lucida Console", "Monaco", monospace;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+#clock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.letter {
+    display: block;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    color: #222222;
+    font-size: 4vmin;
+}
+
+.on {
+    color: #ffffff;
+    text-shadow: 0px 0px 50px #ffffff;
+}
+
+#contact {
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    transition: text-shadow 0.5s ease;
+    color: #ffffff;
+}
+
+a:hover {
+    text-shadow: 0px 0px 50px #ffffff;
+}
