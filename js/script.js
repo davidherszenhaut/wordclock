@@ -162,22 +162,22 @@ function removeHalf() {
     }
 }
 
-function addTen() {
-    var ten = document.getElementsByClassName("letter ten");
-    for (var i = 0; i < ten.length; i++) {
-        if (ten[i].classList.contains("on")) {
+function addTenM() {
+    var tenm = document.getElementsByClassName("letter tenm");
+    for (var i = 0; i < tenm.length; i++) {
+        if (tenm[i].classList.contains("on")) {
             continue;
         } else {
-            ten[i].classList.add("on");
+            tenm[i].classList.add("on");
         }
     }
 }
 
-function removeTen() {
-    var ten = document.getElementsByClassName("letter ten");
-    for (var i = 0; i < ten.length; i++) {
-        if (ten[i].classList.contains("on")) {
-            ten[i].classList.remove("on");
+function removeTenM() {
+    var tenm = document.getElementsByClassName("letter tenm");
+    for (var i = 0; i < tenm.length; i++) {
+        if (tenm[i].classList.contains("on")) {
+            tenm[i].classList.remove("on");
         } else {
             continue;
         }
@@ -264,7 +264,7 @@ function tellTime(currentTime) {
         removeTwenty();
         addFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         addTo();
         removePast();
         removeOClock();
@@ -294,7 +294,7 @@ function tellTime(currentTime) {
         removeTwenty();
         removeFiveM();
         removeHalf();
-        addTen();
+        addTenM();
         addTo();
         removePast();
         removeOClock();
@@ -324,7 +324,7 @@ function tellTime(currentTime) {
         removeTwenty();
         removeFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         addTo();
         removePast();
         removeOClock();
@@ -354,7 +354,7 @@ function tellTime(currentTime) {
         addTwenty();
         removeFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         addTo();
         removePast();
         removeOClock();
@@ -384,7 +384,7 @@ function tellTime(currentTime) {
         removeTwenty();
         removeFiveM();
         addHalf();
-        removeTen();
+        removeTenM();
         removeTo();
         addPast();
         removeOClock();
@@ -414,7 +414,7 @@ function tellTime(currentTime) {
         addTwenty();
         removeFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         removeTo();
         addPast();
         removeOClock();
@@ -444,7 +444,7 @@ function tellTime(currentTime) {
         removeTwenty();
         removeFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         removeTo();
         addPast();
         removeOClock();
@@ -474,7 +474,7 @@ function tellTime(currentTime) {
         removeTwenty();
         removeFiveM();
         removeHalf();
-        addTen();
+        addTenM();
         removeTo();
         addPast();
         removeOClock();
@@ -504,7 +504,7 @@ function tellTime(currentTime) {
         removeTwenty();
         addFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         removeTo();
         addPast();
         removeOClock();
@@ -534,7 +534,7 @@ function tellTime(currentTime) {
         removeTwenty();
         removeFiveM();
         removeHalf();
-        removeTen();
+        removeTenM();
         removeTo();
         removePast();
         addOClock();
